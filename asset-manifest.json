@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/patrickbasamot/react-saver.git/static/css/main.809a6748.css",
+    "main.js": "/patrickbasamot/react-saver.git/static/js/main.02491c3a.js",
+    "index.html": "/patrickbasamot/react-saver.git/index.html",
+    "main.809a6748.css.map": "/patrickbasamot/react-saver.git/static/css/main.809a6748.css.map",
+    "main.02491c3a.js.map": "/patrickbasamot/react-saver.git/static/js/main.02491c3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.809a6748.css",
+    "static/js/main.02491c3a.js"
+  ]
+}
