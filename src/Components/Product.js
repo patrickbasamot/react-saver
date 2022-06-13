@@ -44,7 +44,7 @@ function Item(props){
           <div className="d-flex justify-content-center">
              <img className="img-thumbnail" src={item.image_link} alt={item.name}/>
                <div className="d-flex flex-column align-items-center justify-content-center ms-3" >
-                  <h5 className="text-justify" >{item.name}</h5>
+                  <h5 className="fs-5 text-justify" >{item.name}</h5>
              {/* <a href={item.product_link}>Check Product</a> */}
              <button type="button" className="btn btn-danger align-self-center">Check Product</button>
                 </div>

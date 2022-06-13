@@ -1,16 +1,15 @@
 import React from 'react';
 import Product from './Components/Product';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import NavBar from './Components/NavBar';
 function App() {
   return (
     <div className="App">
-      <div className='container-lg'>
-      {/* <h1 name="patrick">Hello </h1>
-      
-      <Name firstName="Patrick"/> */}
-      <Product />
-      </div>
+       <NavBar />
+      <div className='container-fluid'>
+       
+        <Product />
+       </div>
     </div>
   );
 }
