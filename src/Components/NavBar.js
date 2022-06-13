@@ -1,14 +1,22 @@
 import React from "react";
-
+import { useState } from "react";
 function NavBar(){
-    return(
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-                 <a class="navbar-brand">Maybelline</a>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+    const [searchValue,setsearchValue] = useState('');
+    function value(){
+        console.log(searchValue);
+    }
+    function Search(){
+        return <form className="d-flex">
+                        <input className="form-control me-2" type="search" placeholder="Search" onChange={(event)=> setsearchValue(event.target.value)} aria-label="Search"/>
+                            <button className="btn btn-outline-success" type="submit">Search</button>
                     </form>
+    }
+    return(
+        <nav className="navbar navbar-light bg-light">
+            <div className="container-fluid">
+                 <a className="navbar-brand">Maybelline</a>
+                 <Search />
+                   
             </div>
       </nav>
 
