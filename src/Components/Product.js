@@ -35,7 +35,7 @@ function Buffer(){
 function Item(props){
   return(
 
-    <div className="row row-cols-3">
+    <div className="row row-cols-lg-3 row-cols-md-2 row-cols-xs-1">
     {
     products.map((item, i) => {
        return(
