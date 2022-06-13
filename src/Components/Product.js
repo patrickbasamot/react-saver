@@ -7,7 +7,7 @@ function Product(props){
     const [products, setProducts] = useState([]);
     const [loading,setLoading] = useState(true);
 
- useEffect( ()=>{
+ useEffect(()=>{
   async function fetchData(){
   const url = 'https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline'
   const response = await fetch(url);
@@ -34,12 +34,10 @@ function Buffer(){
 
 function Item(props){
   return(
-
     <div className="row row-cols-lg-3 row-cols-md-2 row-cols-xs-1">
     {
     products.map((item, i) => {
        return(
-        
         <div className="d-md-flex justify-content-center p-3 flex-wrap" key={item.id}>
           <div className="d-flex justify-content-center">
              <img className="img-thumbnail" src={item.image_link} alt={item.name}/>
@@ -69,10 +67,10 @@ function BufferProduct(){
 }
    
 return(
-  <div >
-    <BufferProduct />
-    </div>
-    )
+    <div >
+      <BufferProduct />
+      </div>
+  )
 }
 
 export default Product
