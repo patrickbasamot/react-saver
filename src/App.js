@@ -9,6 +9,7 @@ function App() {
       <div className='container-fluid'>  
         <Product />
        </div>
+       <footer className='text-center text-white bg-dark p-2'>SAVER</footer>
     </div>
   );
 }
