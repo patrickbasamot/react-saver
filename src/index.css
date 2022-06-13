@@ -1,4 +1,4 @@
-*{
+/* *{
   box-sizing: border-box;
 }
 
@@ -6,7 +6,7 @@
   text-align: center;
 } */
 
-.grid-container{
+/* .grid-container{
   display: grid;
   grid-template-columns: repeat(2,30rem);
   grid-gap: 5em;
@@ -20,4 +20,4 @@
 .product{
   display: flex;
   align-items: center;
-}
+}  */
